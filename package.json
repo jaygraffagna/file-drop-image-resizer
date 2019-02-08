@@ -1,0 +1,19 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "App to quickly resize images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaygraffagna/image-resizer.git"
+  },
+  "author": "Jay Graffagna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaygraffagna/image-resizer/issues"
+  },
+  "homepage": "https://github.com/jaygraffagna/image-resizer#readme"
+}
