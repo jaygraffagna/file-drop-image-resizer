@@ -4,7 +4,7 @@
   "description": "App to quickly resize images",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/jaygraffagna/image-resizer/issues"
   },
-  "homepage": "https://github.com/jaygraffagna/image-resizer#readme"
+  "homepage": "https://github.com/jaygraffagna/image-resizer#readme",
+  "dependencies": {
+    "sharp": "^0.21.3"
+  },
+  "devDependencies": {
+    "eslint-config-strongloop": "^2.1.0",
+    "jest": "^24.1.0"
+  }
 }
