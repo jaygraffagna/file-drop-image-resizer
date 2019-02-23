@@ -4,8 +4,8 @@
   "description": "App to quickly resize images",
   "main": "index.js",
   "scripts": {
-		"test": "jest",
-		"setup": "node setup"
+    "test": "jest",
+    "start": "node src/index"
   },
   "repository": {
     "type": "git",
