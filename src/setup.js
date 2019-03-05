@@ -15,6 +15,14 @@ module.exports = ()=>{
 			console.log('output folder alrady created');
 	});
 
+	//Creates a settings file the user can change the width of resize
+	if(!fs.existsSync(config.settings)){
+		fs.writeFile(config.settings, 'width=600', (err)=>{
+			if(err)
+				console.log("start up file already created");
+		});
+	}
+
 	//Creates a command file for windows to start with a file
 	if(os.platform == 'win32'){
 		fs.writeFile(config.path + '/start.cmd', "npm image-resizer start", (err)=>{
