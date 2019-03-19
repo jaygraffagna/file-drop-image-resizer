@@ -1,6 +1,6 @@
 {
   "name": "file-drop-image-resizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App to quickly resize images",
   "main": "index.js",
   "scripts": {
