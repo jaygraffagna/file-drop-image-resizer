@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaygraffagna/image-resizer.git"
+    "url": "git+https://github.com/jaygraffagna/file-drop-image-resizer.git"
   },
   "author": "jaygraffagna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaygraffagna/image-resizer/issues"
+    "url": "https://github.com/jaygraffagna/file-drop-image-resizer/issues"
   },
-  "homepage": "https://github.com/jaygraffagna/image-resizer#readme",
+  "homepage": "https://github.com/jaygraffagna/file-drop-image-resizer#readme",
   "dependencies": {
     "sharp": "^0.21.3"
   },
