@@ -1,12 +1,12 @@
 {
   "name": "file-drop-image-resizer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "App to quickly resize images",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "node src/index",
-    "install": "node src/setup"
+    "install": "node src/install"
   },
   "repository": {
     "type": "git",
