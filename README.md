@@ -2,6 +2,7 @@ Setup:
 
 1. Open command line
 2. mkdir file-drop-image-resizer-app
+3. cd file-drop-image-resizer-app
 3. npm install file-drop-image-resizer
 
 Note:
