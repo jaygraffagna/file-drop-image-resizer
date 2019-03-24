@@ -23,17 +23,15 @@ module.exports = ()=>{
 		});
 	}
 
-	//Creates a package.json for app startups
-	if(!fs.existsSync('package.json')){
-		fs.writeFile('package.json', '{"scripts":{ "start": "node node_modules/file-drop-image-resizer/src/index" }}', (err)=>{
-			if(err)
-				console.log("package file already created");
-		});
-	}
-
 	//Creates a command file for windows to start with a file
 	if(os.platform == 'win32'){
 		fs.writeFile(config.path + '/start.cmd', "cd " + process.cwd() + "\n npm start", (err)=>{
+			if(err)
+				console.log("start up file already created");
+		});
+	}
+	else{
+		fs.writeFile(config.path + '/start.sh', "cd " + process.cwd() + "\n npm start", (err)=>{
 			if(err)
 				console.log("start up file already created");
 		});
